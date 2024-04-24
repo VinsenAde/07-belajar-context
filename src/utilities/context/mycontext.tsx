@@ -1,3 +1,11 @@
+"use client";
 
 import { createContext } from "react";
-export const LevelContext = createContext(1);
+import { themes } from "../themes/mythemes";
+
+export const LevelContext = createContext(0);
+
+export const ThemeContext = createContext({
+  theme: themes.light,
+  toggleTheme: () => {},
+});
