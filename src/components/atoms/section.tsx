@@ -11,7 +11,9 @@ export default function Section({
 }) {
   return (
     <section className="section">
-      <LevelContext.Provider value={level}>{children}</LevelContext.Provider>
+      <LevelContext.Provider value={level + 1}>
+        {children}
+      </LevelContext.Provider>
     </section>
   );
 }
