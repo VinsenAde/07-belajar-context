@@ -1,3 +1,10 @@
+|  | Profile |
+|--|--|
+| NIM |  2141720165|
+| Name | Vinsensius Ade Winata|
+| Class | TI - 3I |
+
+
 1. heading.tsx  this component dynamically renders heading elements based on the level prop provided, ensuring that the rendered HTML is semantically correct and corresponds to the specified heading level.
 section.tsx this component serves as a wrapper for a section of content in a web page. It encapsulates its children within an HTML <section> element and applies a CSS class for styling purposes.
 main_page.tsx  defines a React component that renders a structured layout for a web page, with multiple levels of headings and sections.
@@ -11,5 +18,7 @@ the level prop determines the semantic level of the heading element being render
 
 5. Tambahkan teks Nama dan NIM pada setiap page routing agar menunjukkan itu hasil kerja Anda sendiri!
 
-Apakah toggle button tema sudah berfungsi ? jika belum, silakan perbaiki!
-Mengapa ketika refresh atau berpindah halaman tema tidak permanen ? Buatlah menjadi permanen walaupun page sudah direfresh dan pindah halaman!
+a. Apakah toggle button tema sudah berfungsi ? jika belum, silakan perbaiki!
+Sudah berfungsi
+b. Mengapa ketika refresh atau berpindah halaman tema tidak permanen ? Buatlah menjadi permanen walaupun page sudah direfresh dan pindah halaman!
+
